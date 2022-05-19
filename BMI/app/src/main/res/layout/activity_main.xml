@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/mainlayout"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/edtweight"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_weight"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtheight"
+        android:layout_width="253dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:hint="@string/hind_height"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtinch"
+        android:layout_width="253dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:hint="@string/hind_inch"
+        android:inputType="number" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/calculate"
+        android:text="@string/calculate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/txtresult"
+        android:text="@string/result"/>
+
+
+
+</LinearLayout>
